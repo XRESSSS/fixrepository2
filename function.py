@@ -14,7 +14,7 @@ def convert_meters_to_inches(meters_co_convert: int | float) -> float:
     asdfghjkl
     """
     result = constans.CONSTANTS_METRIC['INCHES_IN_METER'] * meters_co_convert
-    abs_result = abs(result)
+    abs_result = abs(round(result, 2))
     return abs_result
 
 
